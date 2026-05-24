@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import api from '../utils/api';
 import ProductCard from '../components/ProductCard';
 import './Home.css';
+import SmallBanner from '../widgets/small_banner/small_banner';
+import BigBanner from '../widgets/big_banner/big_banner';
 
 const CATEGORIES = [
   { name: 'Protein', icon: '💪', slug: 'proteins', color: '#e63946' },
@@ -105,6 +107,10 @@ export default function Home() {
           </div>
         </section>
       )}
+      <div className="container">
+  <SmallBanner />
+</div>
+<br></br>
 
       {/* Banner */}
       <section className="banner-section">
@@ -157,9 +163,15 @@ export default function Home() {
                 <p>{item.desc}</p>
               </div>
             ))}
+            <br></br>
           </div>
+
+<div className="container">
+  <BigBanner />
+</div>
         </div>
       </section>
     </div>
+    
   );
 }
