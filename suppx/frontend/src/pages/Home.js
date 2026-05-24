@@ -113,7 +113,7 @@ export default function Home() {
             <div className="promo-text">
               <span className="badge badge-red">LIMITED OFFER</span>
               <h3>FREE SHIPPING ON ALL ORDERS ABOVE ₹999</h3>
-              <p>Use code: <strong>SUPPX10</strong> for extra 10% off</p>
+              <p>Use code: <strong>ENERGIENUTRITION10</strong> for extra 10% off</p>
             </div>
             <Link to="/products" className="btn btn-primary">GRAB THE DEAL</Link>
           </div>
@@ -142,7 +142,7 @@ export default function Home() {
       <section className="section why-section">
         <div className="container">
           <div className="section-header" style={{ textAlign: 'center', margin: '0 auto 48px' }}>
-            <h2 className="section-title">WHY CHOOSE <span>SUPPX?</span></h2>
+            <h2 className="section-title">WHY CHOOSE <span>ENERGIE NUTRITION?</span></h2>
           </div>
           <div className="why-grid">
             {[

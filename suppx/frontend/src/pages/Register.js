@@ -29,7 +29,7 @@ export default function Register() {
   return (
     <div className="auth-page">
       <div className="auth-card">
-        <div className="auth-logo">SUPP<span>X</span></div>
+        <div className="auth-logo">ENERGIE<span>NUTRITION</span></div>
         <h2 className="auth-title">Create Account</h2>
         <p className="auth-sub">Join thousands of fitness enthusiasts</p>
 

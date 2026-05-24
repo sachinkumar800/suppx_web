@@ -34,7 +34,7 @@ export default function Navbar() {
       <div className="nav-top">
         <div className="container nav-inner">
           <Link to="/" className="nav-logo">
-            SUPP<span>X</span>
+            ENERGIE<span>NUTRITION</span>
           </Link>
 
           <form className="nav-search" onSubmit={handleSearch}>

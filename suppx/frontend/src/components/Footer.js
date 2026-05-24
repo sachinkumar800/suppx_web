@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <h2 className="footer-logo">SUPP<span>X</span></h2>
+            <h2 className="footer-logo">ENERGIE<span>NUTRITION</span></h2>
             <p>Science-backed supplements for peak performance. 100% authentic, directly delivered.</p>
             <div className="footer-socials">
               <a href="#" aria-label="Instagram">📸</a>
